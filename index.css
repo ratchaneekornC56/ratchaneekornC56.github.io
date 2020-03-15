@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  * {
+    box-sizing: inherit;
+    background-size: cover;
+  }
+  
+  body {
+    margin: 0;
+    color: #484848;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  img {
+    object-fit: cover;
+    display: block;
+  }
+
+
+  
+
+  .label {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .main-container {
+    height: 100vh;
+    background-image: url('https://image.freepik.com/free-photo/hand-holding-pen-typing_23-2148377683.jpg');
+  }
+
+  h1{
+      color: papayawhip;
+  }
+
+  .textheading {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+  }
+ 
+
+  .image {
+    height: 240px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .image-1 {
+    background-image: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80');
+  }
+  .image-2 {
+    background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+  }
+  .image-3 {
+    background-image: url('https://images.unsplash.com/photo-1489359413553-6c264fb36c83?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+  }
+  .image-4 {
+    background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80');
+  }
+  .image-5 {
+    background-image: url('https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+  }
+  .image-6 {
+    background-image: url('https://images.unsplash.com/photo-1535486607281-4fc90307a8bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
+  }
+
+  .product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  
+  @media (min-width: 513px) and (max-width: 768px) {
+    .product-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 512px) {
+    .product-list {
+      grid-template-columns: 1fr;
+    }
+}
+  
